@@ -1,0 +1,134 @@
+/* Style for Admin Pages */
+.voucher-page .check-column {
+    vertical-align: middle;
+}
+.voucher-page .column-id {
+    width: 100px;
+    text-align:center;
+    vertical-align: middle;
+}
+.voucher-page .column-couponcode {
+    width: 120px;
+    text-align:center;
+    vertical-align: middle;
+    color: #000;
+    font-size: 14px;
+}
+.voucher-page .column-mark_used {
+    width: 100px;
+    text-align:center;
+    vertical-align: middle;
+}
+.voucher-page .column-see_order {
+    width: 120px;
+    text-align:center;
+    vertical-align: middle;
+}
+.voucher-page .column-voucheradd_time {
+    width: 120px;
+    text-align:center;
+    vertical-align: middle;
+}
+.voucher-page .column-receipt {
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.receipt.column-receipt img {
+    width: 40px;
+}
+.wp-list-table .voucher_info.column-voucher_info th, .wp-list-table .voucher_info.column-voucher_info td {
+    padding:  0;
+    font-size: 13px;
+}
+.wp-list-table .buyer_info.column-buyer_info th, .wp-list-table .buyer_info.column-buyer_info td {
+    padding:  0;
+    font-size: 13px;
+}
+.voucher-page .wp-list-table #the-list th {
+    padding-right: 10px;
+}
+.voucher-page .row-actions a {
+    display: inline-block;
+    padding:  5px 10px;
+}
+.voucher-page .row-actions .order_detail a {
+   padding:0;
+}
+.voucher-page .row-actions .used a {
+    background-color: #F44336;
+    color: #fff;
+}
+.vused {
+    background-color: #ddd;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #fff;
+    cursor: not-allowed;
+}
+.vunused {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #F44336;
+    color: #fff;
+}
+
+/*View Voucher Page*/
+#voucher-details h2 {
+    margin-bottom: 10px;
+}
+#voucher-details .widefat thead tr th {
+    font-size: 13px;
+    font-weight: bold;
+}
+#voucher-details .main td, #voucher-details .main th {
+    vertical-align:  middle;
+    text-align:  center;
+    font-size: 14px;
+}
+#voucher-details .main h3 {
+    margin:  0;
+}
+
+/*Setting Page*/
+.wpgiftv-row {
+    display: flex;
+    margin: 0 -15px;
+    box-sizing:  border-box;
+}
+.wpgiftv-row .wpgiftv-col75,
+.wpgiftv-row .wpgiftv-col25 {
+    padding: 0 15px;
+}
+.wpgiftv-row .wpgiftv-col75 {
+    width: 75%;
+}
+.wpgiftv-row .wpgiftv-col25 {
+    width: 25%;
+    box-sizing:  border-box;
+}
+.white-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #ddd;
+    border: 1px solid #ddd;
+}
+.white-box .form-table th {
+    width: 50%;
+}
+.white-box h2 {
+    margin-top: 0;
+}
+.star-ratings {
+    text-align:  center;
+    color: #ffcd00;
+}
+.star-ratings .dashicons {
+    font-size: 25px;
+    width: 25px;
+    height:  25px;
+}
+.wpgiftv-disclaimer {
+    color: #888;
+}

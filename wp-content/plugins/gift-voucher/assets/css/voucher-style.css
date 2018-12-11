@@ -1,0 +1,766 @@
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+.clearfix:after {
+    clear: both
+}
+
+#voucher-multistep-form{
+    margin: 30px 0;
+}
+
+#voucher-multistep-form .voucher-row {
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form .vouchercol4 {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form .vouchercol3 {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form.wizard,
+.tabcontrol {
+    display: block;
+    width: 100%;
+    overflow: hidden
+}
+
+#voucher-multistep-form.wizard a,
+.tabcontrol a {
+    outline: 0
+}
+
+#voucher-multistep-form.wizard ul,
+.tabcontrol ul {
+    list-style: none!important;
+    padding: 0;
+    margin: 0
+}
+
+#voucher-multistep-form.wizard ul>li,
+.tabcontrol ul>li {
+    display: block;
+    padding: 0
+}
+
+#voucher-multistep-form.wizard>.steps .current-info,
+.tabcontrol>.steps .current-info {
+    position: absolute;
+    left: -999em
+}
+
+#voucher-multistep-form.wizard>.content>.title,
+.tabcontrol>.content>.title {
+    position: absolute;
+    left: -999em
+}
+
+#voucher-multistep-form.wizard>.steps {
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+#voucher-multistep-form.wizard.vertical>.steps {
+    display: inline;
+    float: left;
+    width: 30%
+}
+
+#voucher-multistep-form.wizard>.steps .number {
+    font-size: 2em;
+    display: block;
+    line-height: 1.2em
+}
+
+#voucher-multistep-form.wizard>.steps>ul>li {
+    width: 25%
+}
+
+#voucher-multistep-form.wizard>.steps>ul>li,
+#voucher-multistep-form.wizard>.actions>ul>li {
+    float: left;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form.wizard.vertical>.steps>ul>li {
+    float: none;
+    width: 100%
+}
+
+#voucher-multistep-form.wizard>.steps a,
+#voucher-multistep-form.wizard>.steps a:hover,
+#voucher-multistep-form.wizard>.steps a:active {
+    display: block;
+    width: auto;
+    margin: 0 .5em .5em;
+    padding: 1em .5em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0 1rem 0 1rem;
+    text-align: center
+}
+
+#voucher-multistep-form.wizard>.steps .disabled a,
+#voucher-multistep-form.wizard>.steps .disabled a:hover,
+#voucher-multistep-form.wizard>.steps .disabled a:active {
+    background-color: #eee;
+    color: #aaa;
+    cursor: not-allowed
+}
+
+#voucher-multistep-form.wizard>.steps .current a,
+#voucher-multistep-form.wizard>.steps .current a:hover,
+#voucher-multistep-form.wizard>.steps .current a:active {
+    background-color: #4d4f4e;
+    color: #fff;
+    cursor: default
+}
+
+#voucher-multistep-form.wizard>.steps .done a,
+#voucher-multistep-form.wizard>.steps .done a:hover,
+#voucher-multistep-form.wizard>.steps .done a:active {
+    background-color: #90cbaf;
+    color: #fff
+}
+
+#voucher-multistep-form.wizard>.steps .error a,
+#voucher-multistep-form.wizard>.steps .error a:hover,
+#voucher-multistep-form.wizard>.steps .error a:active {
+    background-color: #ff3111;
+    color: #fff
+}
+
+#voucher-multistep-form.wizard>.content {
+    display: block;
+    margin: .5em;
+    min-height: 15em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+#voucher-multistep-form.wizard.vertical>.content {
+    display: inline;
+    float: left;
+    margin: 0 2.5% .5em 2.5%;
+    width: 65%
+}
+
+#voucher-multistep-form.wizard>.content>.body {
+    padding: 2%;
+    border: 1px solid #ddd;
+    margin: 0 0 .5em
+}
+
+#voucher-multistep-form.wizard>.content>.body.loading {
+    position: relative
+}
+
+#voucher-multistep-form.wizard>.content>.body.loading.current:after {
+    position: absolute;
+    content: url(../img/loader.gif);
+    background-color: #eee;
+    z-index: 2;
+    top: calc(50% - 12px);
+    left: calc(50% - 110px)
+}
+
+#voucher-multistep-form.wizard>.content>.body.loading.current:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    z-index: 1
+}
+
+#voucher-multistep-form.wizard>.content>.body legend {
+    width: auto;
+    padding: 0 .5em;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0
+}
+
+#voucher-multistep-form.wizard>.content>.body ul {
+    list-style: disc!important
+}
+
+#voucher-multistep-form.wizard>.content>.body ul>li {
+    display: list-item
+}
+
+#voucher-multistep-form.wizard>.content>.body input[type="checkbox"] {
+    display: inline-block
+}
+
+#voucher-multistep-form.wizard>.content>.body input.error {
+    background-color: #fbe3e4;
+    border: 1px solid #fbc2c4;
+    color: #8a1f11
+}
+
+#voucher-multistep-form.wizard>.content>.body label {
+    font-weight: 400;
+    margin-bottom: 3px;
+    display: block;
+    font-size: 15px
+}
+
+#voucher-multistep-form.wizard>.content>.body label.error {
+    color: #8a1f11;
+    display: inline-block;
+    font-size: 13px
+}
+
+#voucher-multistep-form.wizard>.actions {
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%
+}
+
+#voucher-multistep-form.wizard.vertical>.actions {
+    display: inline;
+    float: right;
+    margin: 0 2.5%;
+    width: 95%
+}
+
+#voucher-multistep-form.wizard>.actions>ul {
+    display: block;
+    text-align: left;
+    overflow: auto
+}
+
+#voucher-multistep-form.wizard>.actions>ul>li {
+    margin: 0 .5em;
+    float: right
+}
+
+#voucher-multistep-form.wizard>.actions>ul>li:first-child {
+    float: left
+}
+
+#voucher-multistep-form.wizard>.actions>ul>.disabled a {
+    cursor: not-allowed
+}
+
+#voucher-multistep-form.wizard.vertical>.actions>ul>li {
+    margin: 0 0 0 1em
+}
+
+#voucher-multistep-form.wizard>.actions a,
+#voucher-multistep-form.wizard>.actions a:hover,
+#voucher-multistep-form.wizard>.actions a:active {
+    background-color: #90cbaf;
+    color: #fff;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+#voucher-multistep-form.wizard>.actions .disabled a,
+#voucher-multistep-form.wizard>.actions .disabled a:hover,
+#voucher-multistep-form.wizard>.actions .disabled a:active {
+    background-color: #eee;
+    color: #aaa
+}
+
+.tabcontrol>.steps {
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+.tabcontrol>.steps>ul {
+    position: relative;
+    margin: 6px 0 0 0;
+    top: 1px;
+    z-index: 1
+}
+
+.tabcontrol>.steps>ul>li {
+    float: left;
+    margin: 5px 2px 0 0;
+    padding: 1px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.tabcontrol>.steps>ul>li:hover {
+    background-color: #edecec;
+    border: 1px solid #bbb;
+    padding: 0
+}
+
+.tabcontrol>.steps>ul>li.current {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-bottom: 0 none;
+    padding: 0 0 1px 0;
+    margin-top: 0
+}
+
+.tabcontrol>.steps>ul>li>a {
+    color: #5f5f5f;
+    display: inline-block;
+    border: 0 none;
+    margin: 0;
+    padding: 10px 30px;
+    text-decoration: none
+}
+
+.tabcontrol>.steps>ul>li>a:hover {
+    text-decoration: none
+}
+
+.tabcontrol>.steps>ul>li.current>a {
+    padding: 15px 30px 10px 30px
+}
+
+.tabcontrol>.content {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    border-top: 1px solid #bbb;
+    padding-top: 20px
+}
+
+.tabcontrol>.content>.body {
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%
+}
+
+.tabcontrol>.content>.body ul {
+    list-style: disc!important
+}
+
+.tabcontrol>.content>.body ul>li {
+    display: list-item
+}
+
+#voucher-multistep-form .sin-template {
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px
+}
+
+#voucher-multistep-form .sin-template label {
+    position: relative;
+    border: 3px solid transparent;
+    display: block;
+    cursor: pointer;
+}
+
+#voucher-multistep-form .sin-template label img {
+    display: block;
+    width: 100%;
+    max-width: 100%
+}
+
+#voucher-multistep-form .sin-template label span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    opacity: 0;
+    transition: 0.3s linear;
+    padding: 4px
+}
+
+#voucher-multistep-form .sin-template label:hover span {
+    opacity:  1;
+}
+
+#voucher-multistep-form .sin-template label.selectImage {
+    border: 3px solid #90cbaf;
+}
+
+#voucher-multistep-form .sin-template input[type="radio"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 5px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.15);
+}
+#voucher-multistep-form .sin-template input[type="radio"]:checked:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin: 4px auto;
+    border-radius: 50%;
+    background: #90cbaf;
+    display: block;
+}
+
+#voucher-multistep-form .voucherform {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form .voucherform .form-group {
+    margin-bottom: 20px;
+    position: relative
+}
+
+#voucher-multistep-form .voucherform .form-group input[type="text"],
+#voucher-multistep-form .form-group input[type="email"],
+#voucher-multistep-form .form-group input[type="tel"],
+#voucher-multistep-form .form-group input[type="number"],
+#voucher-multistep-form .form-group select,
+#voucher-multistep-form .form-group textarea {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 5px solid #90cbaf !important;
+    box-shadow: inset 1px 1px 1px 0 #ddd;
+    background-color: #fafafa;
+    border-radius: 0;
+    outline: 0;
+    padding: 0 10px;
+    margin: 0;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form.wizard>.content>.body label sup {
+    font-size: 16px;
+    color: #FF5722;
+    position: relative;
+    top: -1px;
+    line-height: 1
+}
+
+#voucher-multistep-form .voucherform .form-group textarea {
+    height: 250px;
+    padding: 10px
+}
+
+#voucher-multistep-form .voucherform .currencySymbol {
+    position: absolute;
+    display: inline-block;
+    left: 13px;
+    font-weight: 700;
+    bottom: 10px;
+    line-height: 30px;
+    font-size: 18px
+}
+
+#voucher-multistep-form .voucherform #voucherAmount {
+    padding-left: 25px
+}
+
+#voucher-multistep-form #secondRightDiv.sideview {
+    width: 50%;
+    float: right;
+    padding: 0 15px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form #secondRightDiv .cardImgTop img {
+    width: 100%
+}
+
+#voucher-multistep-form #secondRightDiv .cardDiv {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #81c6a9;
+    color: #fff
+}
+
+#voucher-multistep-form #secondRightDiv .cardDiv * {
+    font-family: Arial;
+}
+
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+#voucher-multistep-form .voucherBottomDiv {
+    padding: 10px 15px;
+    position: relative
+}
+
+#voucher-multistep-form .voucherBottomDiv .nameFormLeft,
+#voucher-multistep-form .voucherBottomDiv .nameFormRight {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv input[type="text"],
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv input[type="text"]:focus,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv input[type="text"]:hover,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv textarea,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv textarea:hover,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv textarea:focus {
+    width: 100%;
+    height: 25px;
+    border: 0;
+    display: block;
+    border-radius: 0;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 0 10px;
+    outline: 0;
+    color: #555;
+    margin: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv textarea,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv textarea:hover,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv textarea:focus {
+    height: 120px;
+    resize: none;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.6
+}
+
+#voucher-multistep-form.wizard>.content>.body .voucherBottomDiv label {
+    font-size: 12px;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 3px;
+    color: #555
+}
+
+.voucherBottomDiv .voucherValueForm .currencySymbol {
+    position: absolute;
+    left: 15px;
+    color: #000;
+    line-height: 25px;
+    font-weight: 700
+}
+
+#voucher-multistep-form .voucherBottomDiv .voucherValueForm,
+#voucher-multistep-form .voucherBottomDiv .messageForm {
+    position: relative;
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form .voucherBottomDiv .expiryFormLeft,
+#voucher-multistep-form .voucherBottomDiv .codeFormRight {
+    width: 40%;
+    float: left;
+    padding: 0 10px
+}
+
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv .voucherValueForm .vaoucherValueCard,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv .voucherValueForm .vaoucherValueCard:hover,
+#voucher-multistep-form #secondRightDiv .voucherBottomDiv .voucherValueForm .vaoucherValueCard:focus {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    width: 150px
+}
+
+#voucher-multistep-form .voucherBottomDiv .termsCard {
+    position: absolute;
+    transform: rotate(270deg);
+    font-size: 9px;
+    left: -190px;
+    width: 400px;
+    top: 190px;
+    height: 15px;
+}
+
+#voucher-multistep-form .voucherBottomDiv .voucherSiteInfo {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+#voucher-multistep-form .voucherBottomDiv .voucherSiteInfo a {
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    box-shadow: none
+}
+
+#voucher-multistep-form .voucherPreviewButton a,
+#voucher-multistep-form #voucherPaymentButton {
+    width: 200px;
+    margin: 20px auto;
+    background-color: #81c6a9;
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 7px 20px;
+    border: 0;
+    border-radius: 0
+}
+
+#voucher-multistep-form .paymentUserInfo .full,
+#voucher-multistep-form .paymentUserInfo .half {
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+    margin-bottom: 1em;
+    color: #90cbaf;
+    font-size: 1.2em;
+    line-height: 1.5;
+    box-sizing: border-box
+}
+
+#voucher-multistep-form .paymentUserInfo .half {
+    width: 50%
+}
+
+#voucher-multistep-form .paymentUserInfo .labelInfo {
+    font-size: .9em;
+    color: #666;
+    font-weight: 700
+}
+
+#voucher-multistep-form .paymentUserInfo hr {
+    margin: 0 0 1em 0;
+    height: 1px;
+    background-color: #ddd;
+    border: 0
+}
+
+#voucher-multistep-form .voucherNote,
+#voucher-multistep-form .acceptVoucherTerms,
+#voucher-multistep-form .checkEmailInfo {
+    margin-bottom: 10px;
+    color: #666;
+    line-height: 1.5;
+    font-size: .9em
+}
+
+#voucher-multistep-form .voucherNote {
+    color: #F44336
+}
+
+#voucher-multistep-form .acceptVoucherTerms input[type=checkbox] {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: text-bottom
+}
+
+#voucher-multistep-form.wizard>.content>.body #acceptVoucherTerms-error {
+    display: block;
+    color: red
+}
+
+#voucher-multistep-form .voucherBottomDiv .voucherPowered {
+    font-size: 11px;
+    text-align: center
+}
+
+#voucher-multistep-form .voucherBottomDiv .voucherPowered a {
+    color: #000
+}
+
+@media only sreen and (max-width:1199px) {
+    #voucher-cmultistep-form .vouchercol4 {
+        width: 33.33%
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #voucher-multistep-form .voucherform.secondLeft,
+    #voucher-multistep-form #secondRightDiv.sideview {
+        width: 100%
+    }
+    #voucher-multistep-form .vouchercol4, #voucher-multistep-form .vouchercol3 {
+        width: 50%
+    }
+}
+
+@media(max-width:600px) {
+    #voucher-multistep-form.wizard>.steps>ul>li {
+        width: 50%
+    }
+    #voucher-multistep-form.wizard>.steps a,
+    #voucher-multistep-form.wizard>.steps a:hover,
+    #voucher-multistep-form.wizard>.steps a:active {
+        margin-top: .5em
+    }
+    #voucher-multistep-form.wizard.vertical>.steps,
+    #voucher-multistep-form.wizard.vertical>.actions {
+        display: block;
+        float: none;
+        width: 100%
+    }
+    #voucher-multistep-form.wizard.vertical>.content {
+        display: block;
+        float: none;
+        margin: 0 .5em .5em;
+        width: auto
+    }
+    #voucher-multistep-form .vouchercol4, #voucher-multistep-form .vouchercol3 {
+        width: 100%
+    }
+}
+
+@media(max-width:480px) {
+    #voucher-multistep-form.wizard>.steps>ul>li {
+        width: 100%
+    }
+}

@@ -1,0 +1,766 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Voucher\n"
+"POT-Creation-Date: 2018-05-30 12:45+0530\n"
+"PO-Revision-Date: 2018-05-30 12:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: Codemenschen\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: admin.php\n"
+"X-Poedit-SearchPath-1: front.php\n"
+"X-Poedit-SearchPath-2: gift-voucher.php\n"
+"X-Poedit-SearchPath-3: classes\n"
+"X-Poedit-SearchPath-4: include\n"
+"X-Poedit-SearchPath-5: templates\n"
+
+#: admin.php:44 admin.php:45 admin.php:813 include/voucher_posttype.php:9
+#: include/voucher_posttype.php:11
+msgid "Gift Vouchers"
+msgstr "Bons Cadeaux"
+
+#: admin.php:52 admin.php:607 admin.php:830
+msgid "Voucher Templates"
+msgstr "Modèles de bons"
+
+#: admin.php:53 admin.php:607 admin.php:645
+msgid "Add New Template"
+msgstr "Ajouter un nouveau modèle"
+
+#: admin.php:54
+msgid "View Voucher Details"
+msgstr "Voir les détails des bons"
+
+#: admin.php:55 admin.php:343
+msgid "Settings"
+msgstr "Paramètes"
+
+#: admin.php:68
+msgid "Voucher Codes"
+msgstr "Codes des bons"
+
+#: admin.php:72
+msgid "Purchased Voucher Codes"
+msgstr "Codes de bons achetés"
+
+#: admin.php:113
+msgid "Voucher Order ID"
+msgstr "Numéro bon de commande"
+
+#: admin.php:114
+msgid "Here you can find detailed information for a voucher code."
+msgstr ""
+"Vous trouverez ici des informations détaillées sur un code de réduction."
+
+#: admin.php:118 classes/voucher.php:115
+msgid "Voucher Code"
+msgstr "Code du bon"
+
+#: admin.php:119 classes/template.php:115 classes/voucher.php:120
+msgid "Order Date"
+msgstr "Date d'achat"
+
+#: admin.php:120 admin.php:762 classes/template.php:114
+msgid "Status"
+msgstr "Statut"
+
+#: admin.php:121
+msgid "See Receipt (PDF)"
+msgstr "voir le reçu (pdf)"
+
+#: admin.php:127
+msgid "Unused"
+msgstr "inutilisé"
+
+#: admin.php:127 classes/voucher.php:250
+msgid "Voucher Used"
+msgstr "Bon utilisés"
+
+#: admin.php:132
+msgid "Template Information"
+msgstr "Information mise en page"
+
+#: admin.php:136
+msgid "Template Name"
+msgstr "Nom de mise en page"
+
+#: admin.php:137
+msgid "Template Image"
+msgstr "Image modèle"
+
+#: admin.php:147 classes/voucher.php:116
+msgid "Voucher Information"
+msgstr "Information du bon"
+
+#: admin.php:151 classes/voucher.php:173 front.php:122 front.php:190
+#: front.php:281 include/pdf.php:73 templates/pdf.php:75
+msgid "From"
+msgstr "de"
+
+#: admin.php:152 classes/voucher.php:177
+msgid "To"
+msgstr "à"
+
+#: admin.php:153 classes/voucher.php:181
+msgid "Amount"
+msgstr "Montant"
+
+#: admin.php:154 classes/voucher.php:185
+msgid "Message"
+msgstr "Message"
+
+#: admin.php:166
+msgid "Buyers Information"
+msgstr "Information sur les achetueurs"
+
+#: admin.php:170 classes/voucher.php:204
+msgid "Name"
+msgstr "\tNom"
+
+#: admin.php:171 classes/voucher.php:208
+msgid "Email"
+msgstr "Email"
+
+#: admin.php:172 classes/voucher.php:212 front.php:235
+msgid "Address"
+msgstr "Adresses"
+
+#: admin.php:173 classes/voucher.php:216
+msgid "Postcode"
+msgstr "Code postal"
+
+#: admin.php:174 classes/voucher.php:220
+msgid "Payment Method"
+msgstr "méthode de paiement"
+
+#: admin.php:175
+msgid "Expiry Date"
+msgstr "date d'expiration"
+
+#: admin.php:189
+msgid "Back to Vouchers List"
+msgstr "retour à la liste des bons"
+
+#: admin.php:252
+msgid "Invalid Request."
+msgstr "Demande invalide."
+
+#: admin.php:258
+msgid "Export All Orders"
+msgstr "Exporter toutes les commandes"
+
+#: admin.php:330
+msgid "Your Settings Saved Successfully."
+msgstr "Vos paramètres sont enregistrés avec succès"
+
+#: admin.php:355
+msgid "General Settings"
+msgstr "Paramètres genéraux"
+
+#: admin.php:358
+msgid "Company Name"
+msgstr "nom entreprise"
+
+#: admin.php:366
+msgid "Currency Code"
+msgstr "code devise"
+
+#: admin.php:374
+msgid "Currency Symbol"
+msgstr "Symbole devise"
+
+#: admin.php:382
+msgid "Currency Position"
+msgstr "devise"
+
+#: admin.php:393
+msgid "Voucher Background Color"
+msgstr "Couleur d'arrière plan du bon"
+
+#: admin.php:401
+msgid "Voucher Text Color"
+msgstr "Couleur du texte du bon"
+
+#: admin.php:409
+msgid "Templates Columns"
+msgstr "Modèles de colonnes"
+
+#: admin.php:410
+msgid "How many templates show in a row. (Gift Voucher Shortcode)"
+msgstr ""
+"Combien de modèles apparaissent dans une rangée. (Shortcode de bon cadeau)"
+
+#: admin.php:421
+msgid "Minimum Voucher Value"
+msgstr "Montant minimum du bon"
+
+#: admin.php:422
+msgid "Leave 0 if no minimum value"
+msgstr "Mettre 0 si pas de montant minimum"
+
+#: admin.php:430
+msgid "Maximum Voucher Value"
+msgstr "Montant maximum du bon"
+
+#: admin.php:438
+msgid "Voucher Expiry Type"
+msgstr "Type d'expiration du bon"
+
+#: admin.php:439
+msgid "Select the type of voucher expiration?"
+msgstr "Sélectionnez le type d'expiration du coupon"
+
+#: admin.php:450
+msgid "Voucher Expiry Value"
+msgstr "Valeur d'expiration du coupon"
+
+#: admin.php:451
+msgid "Example: (Days: 60, Fixed Date: 20.05.2018)"
+msgstr "Exemple: (jours: 60, date fixe: 20.05.2018)"
+
+#: admin.php:459
+msgid "Voucher Terms Note"
+msgstr "Note sur les conditions du coupon"
+
+#: admin.php:460
+msgid "Terms note in voucher order page"
+msgstr "Note sur les conditions dans la page de commande du bon"
+
+#: admin.php:466
+msgid "Payment Settings"
+msgstr "Paramètres de paiement"
+
+#: admin.php:469
+msgid "Paypal Enable"
+msgstr "Activer paypal"
+
+#: admin.php:480
+msgid "Paypal Email"
+msgstr "Email Paypal"
+
+#: admin.php:484
+msgid "This address is used for paypal payment."
+msgstr "Cette adresse est utilisée pour le paiement paypal"
+
+#: admin.php:489
+msgid "Paypal Testmode"
+msgstr "Mode test Paypal"
+
+#: admin.php:500
+msgid "Sofort Enable"
+msgstr "Autoriser Sofort"
+
+#: admin.php:511
+msgid "Sofort Configuration Key"
+msgstr "Clé de configuration Sofort"
+
+#: admin.php:512
+msgid ""
+"Enter your configuration key. you only can create a new configuration key by "
+"creating a new Gateway project in your account at sofort.com."
+msgstr ""
+"Entrez votre clé de configuration. vous ne pouvez créer une nouvelle clé de "
+"configuration qu'en créant un nouveau projet Gateway dans votre compte sur "
+"sofort.com."
+
+#: admin.php:516
+msgid "This key is used for Sofort Payment."
+msgstr "Cette clé est utilisée pour le paiement Sofort"
+
+#: admin.php:521
+msgid "Reason for Payment"
+msgstr "Raison du paiement"
+
+#: admin.php:522
+msgid "Reason for payment from Sofort."
+msgstr "Raison du paiement de Sofort"
+
+#: admin.php:528
+msgid "Email Settings"
+msgstr "Réglages emails"
+
+#: admin.php:531
+msgid "Sender Name"
+msgstr "Nom de l'expéditeur"
+
+#: admin.php:532 admin.php:541
+msgid "For emails send by this plugin."
+msgstr "Pour les emails envoyés par ce plugin."
+
+#: admin.php:540
+msgid "Sender Email"
+msgstr "Email de l'expéditeur"
+
+#: admin.php:549
+msgid "Save Settings"
+msgstr "Sauvegarder les réglages"
+
+#: admin.php:646
+msgid "Add Template"
+msgstr "Ajouter un modèle"
+
+#: admin.php:652 admin.php:653 classes/template.php:148
+msgid "Edit Template"
+msgstr "Modifier le modèle"
+
+#: admin.php:675
+msgid "Template Updated Successfully!"
+msgstr "Modèle mis à jour avec succès"
+
+#: admin.php:700
+msgid "Template Added Successfully!"
+msgstr "Modèle ajouté avec succès"
+
+#: admin.php:742 classes/template.php:111
+msgid "Title"
+msgstr "Titre"
+
+#: admin.php:750 classes/template.php:112
+msgid "Image"
+msgstr "Image"
+
+#: admin.php:756
+msgid "Upload Image"
+msgstr "télécharger l'image"
+
+#: admin.php:757 include/voucher_metabox.php:44 include/voucher_metabox.php:78
+msgid "Remove Image"
+msgstr "Supprimer l'image"
+
+#: admin.php:766
+msgid "Active"
+msgstr "actif"
+
+#: admin.php:767
+msgid "Inactive"
+msgstr "inactif"
+
+#: classes/page_template.php:70
+msgid "PDF Voucher Viewer"
+msgstr "Visionneuse PDF du bon"
+
+#: classes/template.php:14
+msgid "Template"
+msgstr "Modèle"
+
+#: classes/template.php:15
+msgid "Templates"
+msgstr "Modèles"
+
+#: classes/template.php:76
+msgid "No templates yet."
+msgstr "Pas encore de modèle"
+
+#: classes/template.php:113
+msgid "Order"
+msgstr "Commande"
+
+#: classes/template.php:149 classes/template.php:193
+msgid "Delete"
+msgstr "Effacer"
+
+#: classes/voucher.php:14 include/voucher_posttype.php:10
+#: include/voucher_posttype.php:12 include/voucher_posttype.php:38
+msgid "Voucher"
+msgstr "Bon"
+
+#: classes/voucher.php:15
+msgid "Vouchers"
+msgstr "Bons"
+
+#: classes/voucher.php:76
+msgid "No purchased voucher codes yet."
+msgstr "pas encore de codes promotionnels achetés"
+
+#: classes/voucher.php:114
+msgid "Order id"
+msgstr "Commande numéro"
+
+#: classes/voucher.php:117
+msgid "Buyer's Information"
+msgstr "Information de l'acheteur"
+
+#: classes/voucher.php:118 classes/voucher.php:289
+msgid "Mark as Used"
+msgstr "Maquer comme utilisé"
+
+#: classes/voucher.php:119
+msgid "Receipt"
+msgstr "Reçu"
+
+#: classes/voucher.php:224
+msgid "Payment Status"
+msgstr "Statut du paiement"
+
+#: classes/voucher.php:228
+msgid "Expiry"
+msgstr "Expiration"
+
+#: classes/voucher.php:350
+msgid "Order Details"
+msgstr "Détails de la commande"
+
+#: front.php:66 front.php:68
+msgid "Select Templates"
+msgstr "Sélectionner le modèle"
+
+#: front.php:75
+msgid "Payment Gatway"
+msgstr "Passerelle de paiement"
+
+#: front.php:78
+msgid "Paypal"
+msgstr "Paypal"
+
+#: front.php:79
+msgid "Sofort"
+msgstr "Sofort"
+
+#: front.php:86 front.php:88
+msgid "Personalize"
+msgstr "Personnaliser"
+
+#: front.php:91
+msgid "Receiver of the voucher"
+msgstr "Destinataire du bon"
+
+#: front.php:95
+msgid "FROM (Exhibitor)"
+msgstr "De la part de"
+
+#: front.php:99 front.php:126 front.php:194 front.php:248 front.php:285
+#: include/pdf.php:84 templates/pdf.php:86
+msgid "Voucher Value"
+msgstr "Montant du bon"
+
+#: front.php:104 front.php:131 front.php:199 front.php:256 front.php:290
+#: include/pdf.php:95 templates/pdf.php:97
+msgid "Personal Message"
+msgstr "Message personnel"
+
+#: front.php:104
+msgid "Characters"
+msgstr "Personne"
+
+#: front.php:115 front.php:183 front.php:274
+msgid "Gift Voucher"
+msgstr "Bon cadeau"
+
+#: front.php:118 front.php:186 front.php:277 include/pdf.php:62
+#: templates/pdf.php:64
+msgid "For"
+msgstr "Pour"
+
+#: front.php:135 front.php:203 front.php:294 include/pdf.php:108
+#: templates/pdf.php:110
+msgid "Date of Expiry"
+msgstr "Date d'expiration"
+
+#: front.php:139 front.php:207 front.php:298 include/pdf.php:119
+#: templates/pdf.php:121
+msgid "Coupon Code"
+msgstr "Code du bon"
+
+#: front.php:144 front.php:212 front.php:303 include/pdf.php:135
+#: templates/pdf.php:137
+msgid "Cash payment is not possible. The terms and conditions apply."
+msgstr ""
+"Le paiement en espèces n'est pas possible. Les termes et conditions "
+"s'appliquent."
+
+#: front.php:149 front.php:151
+msgid "Payment"
+msgstr "Paiement"
+
+#: front.php:154 front.php:223
+msgid "First Name"
+msgstr "Prénom"
+
+#: front.php:158 front.php:227
+msgid "Last Name"
+msgstr "Nom"
+
+#: front.php:162 front.php:231
+msgid "Email Address"
+msgstr "Adresse mail"
+
+#: front.php:166
+msgid "Street / House No"
+msgstr "Numéro de rue"
+
+#: front.php:170 front.php:239
+msgid "Pincode"
+msgstr "CP"
+
+#: front.php:174 front.php:243
+msgid "Payment Gateway"
+msgstr "Passerelle de paiement"
+
+#: front.php:217 front.php:219
+msgid "Overview"
+msgstr "Aperçu"
+
+#: front.php:252
+msgid "Receiver of The Voucher"
+msgstr "Receveur du bon"
+
+#: front.php:261
+msgid ""
+"I hereby accept the terms and conditions, the revocation of the privacy "
+"policy and confirm that all information is correct."
+msgstr ""
+"J'accepte les termes et conditions, la révocation de la politique de "
+"confidentialité et confirme que toutes les informations sont correctes."
+
+#: front.php:263
+msgid ""
+"Please pay attention to the correct mail address, as the voucher will be "
+"sent there as a PDF."
+msgstr ""
+"Veuillez faire attention à l'adresse mail correcte, car le bon vous sera "
+"envoyé en PDF"
+
+#: front.php:265
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#: front.php:306
+msgid "Show Preview"
+msgstr "Voir l'aperçu"
+
+#: gift-voucher.php:64
+msgid "Please select voucher template"
+msgstr "Veuillez sélectionner le modèle de bon"
+
+#: gift-voucher.php:64
+msgid "Please accept the terms and conditions"
+msgstr "Veuillez accepter les termes et conditions"
+
+#: gift-voucher.php:64
+msgid "Finish"
+msgstr "terminer"
+
+#: gift-voucher.php:64
+msgid "Continue"
+msgstr "Continuer"
+
+#: gift-voucher.php:64
+msgid "Back"
+msgstr "Arrière"
+
+#: gift-voucher.php:64
+msgid "Submitted!"
+msgstr "Soumis!"
+
+#: gift-voucher.php:64
+msgid "Error occurred"
+msgstr "Erreur est survenue"
+
+#: include/voucher-shortcodes.php:19
+msgid "Paid"
+msgstr "Payé"
+
+#: include/voucher-shortcodes.php:40
+msgid "We have got your order!"
+msgstr "Nous avons reçu votre commande!"
+
+#: include/voucher-shortcodes.php:40
+msgid "E-Mail Sent Successfully to"
+msgstr "Email envoyé avec succès à"
+
+#: include/voucher-shortcodes.php:51
+msgid ""
+"Some Error Occurred From Sending this Email! <br>(Reload and Retry Again!)"
+msgstr ""
+"Une erreur est survenue lors de l'envoi de cet e-mail! <br> (Recharger et "
+"réessayer!)"
+
+#: include/voucher_metabox.php:39 include/voucher_metabox.php:66
+#: include/voucher_posttype.php:27
+msgid "Featured Image"
+msgstr "Image mise en avant"
+
+#: include/voucher_metabox.php:43 include/voucher_metabox.php:77
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+#: include/voucher_metabox.php:105
+msgid "Insert"
+msgstr "Insérer"
+
+#: include/voucher_metabox.php:153 include/voucher_metabox.php:167
+msgid "Voucher Amount"
+msgstr "Montant du bon"
+
+#: include/voucher_posttype.php:13
+msgid "Voucher Archives"
+msgstr "Archives des bons"
+
+#: include/voucher_posttype.php:14
+msgid "Voucher Attributes"
+msgstr "Attribut du bon"
+
+#: include/voucher_posttype.php:15
+msgid "Parent Voucher:"
+msgstr "Bon Parent"
+
+#: include/voucher_posttype.php:16
+msgid "All Gift Vouchers"
+msgstr "Tous les bons cadeaux"
+
+#: include/voucher_posttype.php:17 include/voucher_posttype.php:18
+msgid "Add New Voucher"
+msgstr "Ajouter un nouveau bon"
+
+#: include/voucher_posttype.php:19
+msgid "New Voucher"
+msgstr "Nouveau bon"
+
+#: include/voucher_posttype.php:20
+msgid "Edit Voucher"
+msgstr "Modifier le bon"
+
+#: include/voucher_posttype.php:21
+msgid "Update Voucher"
+msgstr "Mettre à jour le bon"
+
+#: include/voucher_posttype.php:22
+msgid "View Voucher"
+msgstr "Voir le bon"
+
+#: include/voucher_posttype.php:23
+msgid "View Vouchers"
+msgstr "Voir les bons"
+
+#: include/voucher_posttype.php:24
+msgid "Search Voucher"
+msgstr "Rechercher un bon"
+
+#: include/voucher_posttype.php:25
+msgid "Not found"
+msgstr "Introuvable"
+
+#: include/voucher_posttype.php:26
+msgid "Not found in Trash"
+msgstr "Introuvable dans la corbeille"
+
+#: include/voucher_posttype.php:28
+msgid "Set featured image"
+msgstr "Choisir l'image"
+
+#: include/voucher_posttype.php:29
+msgid "Remove featured image"
+msgstr "Supprimer l'image"
+
+#: include/voucher_posttype.php:30
+msgid "Use as featured image"
+msgstr "Utiliser comme image"
+
+#: include/voucher_posttype.php:31
+msgid "Insert into Voucher"
+msgstr "Insérer à ce bon"
+
+#: include/voucher_posttype.php:32
+msgid "Uploaded to this Voucher"
+msgstr "Télécharger sur ce bon"
+
+#: include/voucher_posttype.php:33
+msgid "Vouchers list"
+msgstr "Liste des bons"
+
+#: include/voucher_posttype.php:34
+msgid "Vouchers list navigation"
+msgstr "Navigation dans la liste des bons"
+
+#: include/voucher_posttype.php:35
+msgid "Filter Vouchers list"
+msgstr "Filtrer la liste des bons"
+
+#: include/voucher_posttype.php:39
+msgid "Create your store vouchers as a product"
+msgstr "Créez vos bons de magasin en tant que produit"
+
+#: include/voucher_posttype.php:67
+msgid "Voucher Categories"
+msgstr "Catégorie du bon:"
+
+#: include/voucher_posttype.php:68 include/voucher_posttype.php:69
+msgid "Voucher Category"
+msgstr "Catégorie du Bon"
+
+#: include/voucher_posttype.php:70
+msgid "All Voucher Categories"
+msgstr "Catégorie de tous les bons"
+
+#: include/voucher_posttype.php:71
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: include/voucher_posttype.php:72
+msgid "Parent Category:"
+msgstr "Catégorie parente:"
+
+#: include/voucher_posttype.php:73
+msgid "New Category Name"
+msgstr "Nouveau nom de catégorie"
+
+#: include/voucher_posttype.php:74
+msgid "Add New Category"
+msgstr "Ajouter Catégorie"
+
+#: include/voucher_posttype.php:75
+msgid "Edit Category"
+msgstr "Modifier Catégorie"
+
+#: include/voucher_posttype.php:76
+msgid "Update Category"
+msgstr "mettre à jour caégorie"
+
+#: include/voucher_posttype.php:77
+msgid "View Category"
+msgstr "Voir Catégorie"
+
+#: include/voucher_posttype.php:78
+msgid "Separate Categories with commas"
+msgstr "Séparer les catégories avec une virgule"
+
+#: include/voucher_posttype.php:79
+msgid "Add or remove Categories"
+msgstr "Ajouter plus de catégories"
+
+#: include/voucher_posttype.php:80
+msgid "Choose from the most used"
+msgstr "Choisir parmi les plus utilisés"
+
+#: include/voucher_posttype.php:81
+msgid "Popular Categories"
+msgstr "Catégories populaires"
+
+#: include/voucher_posttype.php:82
+msgid "Search Categories"
+msgstr "Rechercher une catégorie"
+
+#: include/voucher_posttype.php:83
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: include/voucher_posttype.php:84
+msgid "No Categories"
+msgstr "Pas de catégories"
+
+#: include/voucher_posttype.php:85
+msgid "Categories list"
+msgstr "Liste des catégories"
+
+#: include/voucher_posttype.php:86
+msgid "Categories list navigation"
+msgstr "parcourir la liste des catégories"
+
+#~ msgid "Error occured"
+#~ msgstr "Erreur est survenue"

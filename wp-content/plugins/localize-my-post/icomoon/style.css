@@ -1,0 +1,153 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-jfvmgc');
+	src:url('fonts/icomoon.eot?#iefix-jfvmgc') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-jfvmgc') format('woff'),
+		url('fonts/icomoon.ttf?-jfvmgc') format('truetype'),
+		url('fonts/icomoon.svg?-jfvmgc#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-earth:before {
+	content: "\e602";
+}
+
+.icon-location:before {
+	content: "\e603";
+}
+
+.icon-direction:before {
+	content: "\e604";
+}
+
+.icon-map-pin-stroke:before {
+	content: "\e600";
+}
+
+.icon-map-pin-fill:before {
+	content: "\e601";
+}
+
+.icon-map-pin-alt:before {
+	content: "\e605";
+}
+
+.icon-location3:before {
+	content: "\e606";
+}
+
+.icon-globe2:before {
+	content: "\f0b6";
+}
+
+.icon-location4:before {
+	content: "\f060";
+}
+
+.icon-location5:before {
+	content: "\e947";
+}
+
+.icon-location2:before {
+	content: "\e948";
+}
+
+.icon-compass3:before {
+	content: "\e949";
+}
+
+.icon-compass2:before {
+	content: "\e94a";
+}
+
+.icon-map:before {
+	content: "\e94b";
+}
+
+.icon-map2:before {
+	content: "\e94c";
+}
+
+.icon-earth2:before {
+	content: "\e9ca";
+}
+
+.icon-location-off:before {
+	content: "\e607";
+}
+
+.icon-location-on:before {
+	content: "\e608";
+}
+
+.icon-map3:before {
+	content: "\e609";
+}
+
+.icon-my-location:before {
+	content: "\e60a";
+}
+
+.icon-navigation:before {
+	content: "\e60b";
+}
+
+.icon-pin-drop:before {
+	content: "\e60c";
+}
+
+.icon-place:before {
+	content: "\e60d";
+}
+
+.icon-publ:before {
+	content: "\e60e";
+}
+
+.icon-mapmarker:before {
+	content: "\e60f";
+}
+
+.icon-globe:before {
+	content: "\f0ac";
+}
+
+.icon-compass:before {
+	content: "\f14e";
+}
+
+.icon-address:before {
+	content: "\e610";
+}
+
+.icon-compass4:before {
+	content: "\e611";
+}
+
+.icon-direction2:before {
+	content: "\e612";
+}
+
+.icon-location-pin:before {
+	content: "\e613";
+}
+
+.icon-location6:before {
+	content: "\e614";
+}
+
